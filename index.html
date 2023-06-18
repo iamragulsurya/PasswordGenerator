@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Password Generator</h1>
+    </div>
+    <div class="container">
+        <h1>Generate <br>Strong Password<br></h1>
+        <div class="display">
+            <input type="text" id="Password" placeholder="Password">
+            <img src="images/baseline_content_copy_black_24dp.png" id="copy">
+        </div>
+        <div class="setting">
+			<label>Password length</label>
+			<input type="number" id="length" min='4' max='20' value='20' />
+		</div>
+        <br>
+        <button id="generate">Generate Password</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
